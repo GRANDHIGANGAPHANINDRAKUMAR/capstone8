@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>practice</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="formcontainer">
+            <form id="form">
+                <legend class="highlight"><b>Registration form</b></legend>
+                <div class="inpcontainer">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter Full Name" required />
+                </div>
+                <div class="inpcontainer">
+                    <label for="email">email</label>
+                    <input type="email" id="email" placeholder="Enter Email" required/>
+                </div>
+                <div class="inpcontainer">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter Password" required/>
+                </div>
+                <div class="inpcontainer">
+                    <label for="Dob">Dob</label>
+                    <input type="date" id="Dob" placeholder="Enter Date of Birth" required />
+                </div>
+                <input type="checkbox" id="checkbox" required/>
+                <label for="checkbox" class="checkbox">Accept Terms&conditions</label>
+                <div class="buttoncontainer">
+                    <input type="submit" value="submit" />
+                </div>
+            </form>
+
+        </div>
+        <div id="sample">        
+        </div>
+        <h2 style="text-align: center;"><b>Entries</b></h2>
+        <div id="user-table"></div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
